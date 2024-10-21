@@ -1,0 +1,62 @@
+.menu {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.red-border a {
+    margin: 0 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    border: 2px solid red;
+}
+
+.black-background {
+    background-color: black;
+}
+
+.black-background a {
+    margin: 0 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.colorful-buttons a {
+    margin: 0 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.onas { background-color: orange; }
+.produkty { background-color: red; }
+.promocje { background-color: lightblue; }
+.nowosci { background-color: purple; }
+.kontakt { background-color: green; }
+
+.icon-menu a {
+    margin: 0 5px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.icon-menu i {
+    margin-right: 8px;
+    font-size: 18px;
+}
+
+.lines-menu a {
+    margin: 0 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    border-bottom: 2px solid white;
+}
